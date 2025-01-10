@@ -8,7 +8,7 @@ RUN \
  wget https://repo-feed.flightradar24.com/linux_binaries/fr24feed_${FLIGHTRADAR_VERSION}_amd64.tgz &&\
  tar zxf fr24feed_${FLIGHTRADAR_VERSION}_amd64.tgz 
 
-COPY ./config/fr24feed.ini /etc/fr24feed.ini
+COPY ./fr24feed.ini /etc/fr24feed.ini
 
 WORKDIR /fr24feed_amd64
 
