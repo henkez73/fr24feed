@@ -11,5 +11,5 @@ docker run \
  -p 30002:30002 \
  -p 30003:30003 \
  -p 30334:30334 \
- -v ${PWD}/config/fr24feed.ini:/etc/fr24feed.ini \
+ -v ${PWD}/fr24feed.ini:/etc/fr24feed.ini \
 fr24feed:test
