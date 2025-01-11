@@ -1,6 +1,7 @@
 services:
   dump1090:
     image: henkez/dump1090:test
+    privileged: true
     expose:
       - 8080
       - 30001
