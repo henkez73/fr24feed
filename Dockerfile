@@ -10,7 +10,7 @@ RUN apt-get update && apt-get -y upgrade && \
       linux/amd64) \
         wget -O - https://repo-feed.flightradar24.com/linux_binaries/fr24feed_${FLIGHTRADAR_VERSION}_amd64.tgz|tar -xzvf - -C /bin --strip 1 \
         ;; \
-      linux/arm64) \
+      linux/arm64|linux/arm/v7) \
         wget -O - https://repo-feed.flightradar24.com/rpi_binaries/fr24feed_${FLIGHTRADAR_VERSION}_arm64.tgz|tar -xzvf - -C /bin --strip 1 \
         ;; \
       *) \
