@@ -4,7 +4,7 @@ services:
     container_name: dump1090
     # privileged: true
     devices:
-    - '/dev/bus/usb/002/002'
+      - '/dev/bus/usb/002/002'
     restart: unless-stopped
   fr24feed:
     image: henkez/fr24feed:1.0.48-0
