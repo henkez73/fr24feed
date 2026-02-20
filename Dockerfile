@@ -1,6 +1,6 @@
-FROM debian:bullseye-slim
+FROM debian:trixie-slim
 
-ENV FLIGHTRADAR_VERSION=1.0.48-0
+ENV FLIGHTRADAR_VERSION=1.0.54-0
 
 ARG TARGETPLATFORM
 

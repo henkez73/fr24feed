@@ -1,0 +1,10 @@
+services:
+  fr24feed:
+    image: henkez/fr24feed:latest
+    container_name: fr24feed
+#    ports:
+#      - 8754:8754
+    network_mode: host
+    restart: unless-stopped
+    volumes:
+      - ./config/fr24feed.ini:/etc/fr24feed.ini:ro
