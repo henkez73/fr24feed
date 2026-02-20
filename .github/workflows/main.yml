@@ -37,4 +37,4 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64,linux/arm/v7
           push: true
-          tags: henkez/fr24feed:1.0.48-0
+          tags: henkez/fr24feed:latest
